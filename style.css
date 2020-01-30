@@ -1,0 +1,11 @@
+header {
+  display: none;
+}
+
+.partner-logos img {
+  height: 30px;
+}
+
+input[type="password"] {
+  background-image: url(./assets/unlocked.png);
+}

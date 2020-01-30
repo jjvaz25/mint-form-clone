@@ -9,6 +9,116 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header>
+    <nav>
+      Top nav bar
+    </nav>
+  </header>
+  <main>
+    <section class="logo-container">
+      <img src="./assets/intuit-logo.png" alt="intuit accounts logo">
+      <div class="partner-logos">
+        <a href="https://www.mint.com/" target="_blank">
+          <img src="./assets/mint-logo.svg" alt="mint.com icon">
+          <img src="./assets/mint-text.svg" alt="mint.com logo text">
+        </a>
+        <a href="https://quickbooks.intuit.com/" target="_blank">
+          <img src="./assets/quickbooks-logo.svg" alt="quickbooks icon">
+          <img src="./assets/quickbooks-text.svg" alt="quickbooks logo text">
+        </a>
+        <a href="https://turbotax.intuit.com/" target="_blank">
+          <img src="./assets/turbotax-logo.svg" alt="turbotax icon">
+          <img src="./assets/turbotax-text.svg" alt="turbotax logo text">
+        </a>
+      </div>
+    </section>
+    <section class="form-container">
+      <form action="#" method="POST">
+        <h1>Create an Intuit Account</h1>
+        <h3>One account for everything Intuit, including Mint.</h3>
+        <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+          target="_blank"
+        >
+          Learn more
+        </a>
+        <h3>
+          Already have an account? 
+          <a href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D8f90dc11-cc3c-49ad-92b6-086883d98d89%26adobe_mc%3DMCMID%253D38391138743357860120467545780728310845%257CMCAID%253D2F18D70A0515C7E4-40000BED83255DAB%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1580319178%26ivid%3D8f90dc11-cc3c-49ad-92b6-086883d98d89"
+          >
+            Sign in
+          </a>
+        </h3>
+        <fieldset>
+          <ul>
+            <li>
+              <label>
+                Email address
+                <input type="email" name="email" required>
+              </label>
+            </li>
+            <li>
+              <label>
+                Phone (recommended)
+                <input type="tel" name="telephone" required>
+              </label>
+              <p>Standard call, messaging or data rates may apply.</p>
+            </li>
+            <li>
+              <label>
+                Password
+                <input type="password" name="password">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <button name="submit">
+          <img src="./assets/locked.png" alt="locked">
+          <span>Create Account</span>
+        </button>
+        <p>
+          By clicking Create account, you agree to our 
+          <a href="https://www.mint.com/terms" target="_blank">Terms</a>
+          and have read and acknowledge our 
+          <a href="https://security.intuit.com/privacy" target="_blank">Privacy Statement</a>
+        </p>
+        <p>
+          Invisible reCAPTCHA by Google 
+          <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy Policy</a>
+          and 
+          <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use</a>.
+        </p>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <nav>
+      <ul>
+        <li>
+          <a href="http://about.intuit.com/legal/" target="_blank">
+            Legal
+          </a>
+        </li>
+        <li>
+          <a href="https://security.intuit.com/privacy/" target="_blank">
+            Privacy
+          </a>
+        </li>
+        <li>
+          <a href="http://security.intuit.com/" target="_blank">
+            Security
+          </a>
+        </li>
+      </ul>
+      <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, 
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p>
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.
+      </p>
+    </nav>
+    <button>
+      Privacy Settings
+    </button>
+  </footer>
 </body>
 </html>
