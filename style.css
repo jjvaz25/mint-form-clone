@@ -16,6 +16,15 @@ body {
   background-color: rgb(236, 238, 241);
   font-size: 14px;
   font-family: helvetica, arial, sans-serif;
+  font-weight: 400;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  width: 380px;
 }
 
 button {
