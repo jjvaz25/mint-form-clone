@@ -38,6 +38,13 @@ form {
   margin: 0 auto;
 }
 
+form p {
+  font-size: 10px;
+  color: #444444;
+  padding: 5px 0;
+  margin-bottom: 30px;
+}
+
 h1 {
   color: var(--secondaryText);
   font-size: 24px;
@@ -75,6 +82,7 @@ input {
   border-radius: 3px;
   outline: none;
   padding: 0px 6px 0px 8px;
+  margin-top: 6px;
   width: 320px;
   height: 34px;
   line-height: 1.3em;
@@ -101,6 +109,11 @@ a {
 a:visited {
   text-decoration: none;
   color: var(--primaryBlue);
+}
+
+/* TEMPORARY */
+.temp {
+  margin-bottom: 15px;
 }
 
 /* MOBILE STYLES */
@@ -155,6 +168,10 @@ a:visited {
 .leading-text {
   padding-top: 20px;
   padding-bottom: 0;
+}
+
+.email-label {
+  margin-bottom: 30px;
 }
 
 header {
