@@ -31,7 +31,9 @@ footer {
 form {
   background-color: white;
   padding: 30px;
-  border: 1px solid #c7c7c7;
+  border-top: 1px solid #c7c7c7;
+  border-left: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
   border-radius: 2px;
   width: 80%;
   max-width: 380px;
@@ -83,7 +85,8 @@ input {
   outline: none;
   padding: 0px 6px 0px 8px;
   margin-top: 6px;
-  width: 320px;
+  /* width: 320px; */
+  width: 100%;
   height: 34px;
   line-height: 1.3em;
 
@@ -96,13 +99,6 @@ input:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
 }
 
-input[type="password"] {
-  background-image: url(./assets/unlocked.png);
-  background-size: 23px;
-  background-repeat: no-repeat;
-  background-position: 96% 50%;
-}
-
 a {
   text-decoration: none;
   color: var(--primaryBlue);
@@ -113,10 +109,6 @@ a:visited {
   color: var(--primaryBlue);
 }
 
-/* TEMPORARY */
-.temp {
-  margin-bottom: 15px;
-}
 
 /* MOBILE STYLES */
 
@@ -174,6 +166,58 @@ a:visited {
 
 .email-label {
   margin-bottom: 30px;
+}
+
+input[type="password"] {
+  background-image: url(./assets/unlocked.png);
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position: 96% 50%;
+  margin-bottom: 25px;
+}
+
+button[name="submit"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 15.75px;
+  margin-bottom: 35px;
+}
+
+button[name="submit"] img {
+  height: 15.75px;
+  margin-right: 6px;
+}
+
+.terms {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  line-height: 2;
+  margin: 0 25px -15px 25px;
+}
+
+.form-footer {
+  background-color: #eceef1;
+  border-left: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
+  padding: 16px;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+  border-radius: 2px;
+  width: 80%;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.form-footer p {
+  margin: 5px 0px;
 }
 
 header {
