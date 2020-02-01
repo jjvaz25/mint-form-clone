@@ -98,7 +98,9 @@ input:focus {
 
 input[type="password"] {
   background-image: url(./assets/unlocked.png);
+  background-size: 23px;
   background-repeat: no-repeat;
+  background-position: 96% 50%;
 }
 
 a {
