@@ -275,11 +275,11 @@ header {
     padding: 10px 30px;
   }
 
-  nav {
+  .top-nav {
     display: flex;
   }
 
-  nav button {
+  .top-nav button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -289,7 +289,7 @@ header {
     font-size: 13.75px;
   }
 
-  nav button > img {
+  .top-nav button > img {
     height: 13.75px;
     margin-right: 6px;
   }
