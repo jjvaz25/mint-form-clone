@@ -25,6 +25,7 @@ footer {
   font-size: 12px;
   color: var(--footerText);
   padding: 20px 0;
+  line-height: 1.5;
 }
 
 
@@ -218,6 +219,40 @@ button[name="submit"] img {
 
 .form-footer p {
   margin: 5px 0px;
+}
+
+.footer-list {
+  /* padding-bottom: 5px; */
+}
+
+.footer-list li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.footer-link {
+  color: var(--footerText);
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-link:visited {
+  color: var(--footerText);
+}
+
+.terms-text {
+  margin-bottom: 20px;
+}
+
+.privacy-settings {
+  background-color: #505050;
+  position: fixed;
+  bottom: 0px;
+  right: 5%;
+  font-size: 14px;
+  padding: 10px 12px
 }
 
 header {
