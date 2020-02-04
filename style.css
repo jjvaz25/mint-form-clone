@@ -293,5 +293,9 @@ header {
     height: 13.75px;
     margin-right: 6px;
   }
+
+  .in-form-sign-in {
+    display: none;
+  }
   
 }
